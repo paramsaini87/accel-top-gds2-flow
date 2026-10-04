@@ -1,0 +1,9 @@
+load_sky130
+read_verilog rtl/accel_top_flat.v
+set_clock_period 15
+run_all 200 200
+write_netlist accel_top_postpnr.v
+write_def accel_top.def
+write_gds accel_top.gds
+write_image images/04_final_layout.png routing
+exit
