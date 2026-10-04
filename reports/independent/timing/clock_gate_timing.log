@@ -1,0 +1,326 @@
+[INFO ODB-0227] LEF file: /pdk/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef, created 14 layers, 25 vias
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /pdk/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /pdk/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef, created 8 library cells
+[WARNING ODB-0220] WARNING (LEFPARS-2008): NOWIREEXTENSIONATPIN statement is obsolete in version 5.6 or later.
+The NOWIREEXTENSIONATPIN statement will be ignored. See file /pdk/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef at line 2.
+
+[INFO ODB-0227] LEF file: /pdk/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef, created 437 library cells
+[INFO ODB-0127] Reading DEF file: /work/accel_top.def
+[INFO ODB-0128] Design: accel_top
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0094] 		Created 200000 Insts
+[INFO ODB-0094] 		Created 300000 Insts
+[INFO ODB-0130]     Created 246 pins.
+[INFO ODB-0131]     Created 349510 components and 1559709 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 1279180 connections.
+[INFO ODB-0133]     Created 84562 nets and 280071 connections.
+[INFO ODB-0134] Finished DEF file: /work/accel_top.def
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 3
+[INFO] Setting input delay to: 3
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.15
+[INFO] Setting timing derate to: 5%
+ICGT-LATCH HICG_L0_0_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_0_latch/D (sky130_fd_sc_hd__dlxtp_1)   10.32    9.14    1.18 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_0_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.82    6.95    3.13 (MET)
+
+ICGT-LATCH HICG_L0_1_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_1_latch/D (sky130_fd_sc_hd__dlxtp_1)   10.95   10.95    0.00 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_1_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.68    6.77    3.09 (MET)
+
+ICGT-LATCH HICG_L0_2_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_2_latch/D (sky130_fd_sc_hd__dlxtp_1)   10.78   10.78    0.00 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_2_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.68    6.66    2.97 (MET)
+
+ICGT-LATCH HICG_L0_3_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_3_latch/D (sky130_fd_sc_hd__dlxtp_1)   10.23   10.23    0.00 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_3_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.54    6.21    2.67 (MET)
+
+ICGT-LATCH HICG_L0_4_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_4_latch/D (sky130_fd_sc_hd__dlxtp_1)   10.31    9.80    0.51 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_4_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.78    7.07    3.29 (MET)
+
+ICGT-LATCH HICG_L0_5_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_5_latch/D (sky130_fd_sc_hd__dlxtp_1)   10.95   10.95    0.00 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_5_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.57    6.74    3.17 (MET)
+
+ICGT-LATCH HICG_L0_6_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_6_latch/D (sky130_fd_sc_hd__dlxtp_1)   10.79   10.79    0.00 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_6_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.94    6.67    2.73 (MET)
+
+ICGT-LATCH HICG_L0_7_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_7_latch/D (sky130_fd_sc_hd__dlxtp_1)   10.53   10.19    0.33 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_7_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.95    6.19    2.23 (MET)
+
+ICGT-LATCH HICG_L0_8_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_8_latch/D (sky130_fd_sc_hd__dlxtp_1)   10.76   10.76    0.00 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_8_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.70    6.65    2.95 (MET)
+
+ICGT-LATCH HICG_L0_9_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_9_latch/D (sky130_fd_sc_hd__dlxtp_1)   11.14   11.14    0.00 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_9_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.70    6.87    3.17 (MET)
+
+ICGT-LATCH HICG_L0_10_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_10_latch/D (sky130_fd_sc_hd__dlxtp_1)   10.66   10.66    0.00 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_10_latch/D (sky130_fd_sc_hd__dlxtp_1)    4.11    6.57    2.46 (MET)
+
+ICGT-LATCH HICG_L0_11_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_11_latch/D (sky130_fd_sc_hd__dlxtp_1)   10.86   10.86    0.00 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_11_latch/D (sky130_fd_sc_hd__dlxtp_1)    4.11    6.71    2.60 (MET)
+
+ICGT-LATCH HICG_L0_12_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_12_latch/D (sky130_fd_sc_hd__dlxtp_1)   10.46    7.97    2.49 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_12_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.96    7.26    3.30 (MET)
+
+ICGT-LATCH HICG_L0_13_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_13_latch/D (sky130_fd_sc_hd__dlxtp_1)   10.95   10.95    0.00 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L0_13_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.83    6.71    2.88 (MET)
+
+ICGT-LATCH HICG_L1_14_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L1_14_latch/D (sky130_fd_sc_hd__dlxtp_1)    9.75    7.53    2.21 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L1_14_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.22    6.37    3.15 (MET)
+
+ICGT-LATCH HICG_L1_15_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L1_15_latch/D (sky130_fd_sc_hd__dlxtp_1)    9.64    9.52    0.12 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L1_15_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.06    5.53    2.47 (MET)
+
+ICGT-LATCH HICG_L1_16_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L1_16_latch/D (sky130_fd_sc_hd__dlxtp_1)    9.66    8.96    0.70 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L1_16_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.09    5.08    1.99 (MET)
+
+ICGT-LATCH HICG_L1_17_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L1_17_latch/D (sky130_fd_sc_hd__dlxtp_1)    9.64    8.97    0.67 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L1_17_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.06    5.09    2.03 (MET)
+
+ICGT-LATCH HICG_L1_18_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L1_18_latch/D (sky130_fd_sc_hd__dlxtp_1)    9.58    9.52    0.06 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L1_18_latch/D (sky130_fd_sc_hd__dlxtp_1)    2.98    5.53    2.55 (MET)
+
+ICGT-LATCH HICG_L1_19_latch
+max_delay/setup group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L1_19_latch/D (sky130_fd_sc_hd__dlxtp_1)    9.65    9.65    0.00 (MET)
+
+min_delay/hold group clk
+
+                                     Required  Actual
+Endpoint                               Delay   Delay   Slack
+------------------------------------------------------------
+HICG_L1_19_latch/D (sky130_fd_sc_hd__dlxtp_1)    3.07    5.61    2.54 (MET)
+
